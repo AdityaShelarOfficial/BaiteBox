@@ -1,0 +1,54 @@
+* {
+    background-color: rgb(220,228,228);
+    box-sizing: border-box;
+}
+nav { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    width: 100%;
+    
+}
+li
+{
+    background-color: black;
+}
+nav ul {
+    width: 45%;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li a {
+    background-color: black;
+    text-decoration:none;
+    color: white;
+}
+nav h2 {
+    color: white;
+    background-color: black;
+    padding-left: 3vw;
+}
+nav h2 span{
+    background-color: black;
+}
+
+nav ul li a:hover{
+    color: red;
+    font-weight: bold;
+}
+span{
+    background-color: black;
+}
+li:last-child a{
+    background-color: red;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+li:last-child a:hover{
+    color: black;
+    background-color: white;
+
+}
