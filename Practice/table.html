@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table in Html</title>
+    <style>
+        h2{
+            color: rgb(222, 11, 11);
+        }
+        table,th,td{
+            border: 2px  solid black;
+        }
+        /* table{
+            border-collapse: collapse;
+        } */
+        h2{
+            text-align:center
+        }
+        td{
+            text-align: center;
+        }
+        th{
+            padding: 10px 20px;
+            background-color: black;
+            color: wheat;
+        }
+        td{
+            padding: 7px 0px;
+        }
+        tfoot tr td{
+            background-color:black ;
+            color: wheat;
+        }
+    </style>
+</head>
+<body>
+    <h2>Student Result Portal</h2>
+    <table align="center" >
+        <thead>
+            <tr>
+                <th>Sub Code</th>
+                <th>Sub Name</th>
+                <th>Marks obt</th>
+                <th>Total Marks</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>211</td>
+                <td>Java</td>
+                <td>90</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>212</td>
+                <td>python</td>
+                <td>80</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>213</td>
+                <td>AI</td>
+                <td>70</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>214</td>
+                <td>ML</td>
+                <td>90</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>215</td>
+                <td>Os</td>
+                <td>70</td>
+                <td>100</td>
+            </tr>
+            
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td>Total Marks</td>
+                <td>390/500</td>
+                <td>Percentage</td>
+                <td>75.6%</td>
+            </tr>
+        </tfoot>
+
+    </table>
+</body>
+</html>

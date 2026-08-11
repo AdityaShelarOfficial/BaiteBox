@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position in html</title>
+    <style>
+        body{
+            background-image: url("https://media.licdn.com/dms/image/v2/C4D0BAQH4bJgv3wo--Q/company-logo_200_200/company-logo_200_200/0/1649247137649/itvedant_logo?e=2147483647&v=beta&t=fnHAxHyuAfGJJ29SHdEMvKwyA2q5CK_HfhKTh9lTG6w");
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+        }
+        h2{
+            margin: 50px 35% ;
+            text-shadow: 2px 2px 5px #d10000;
+            box-shadow: 2px 2px 5px 5px red;
+            text-align: center;
+            padding: 15px 0px;
+            /* position: fixed;
+            top: 3vh; */
+            position: sticky;
+            top: 0px;
+
+        }
+        .one{
+            margin-left: 5%;
+            width: 20%;
+            border: 2px solid black;
+            padding: 1vh 1%;
+            /* position: relative; */
+        }
+        .one img{
+            width: 40%;
+            height: auto;
+            margin: auto;
+            margin: 3vh 30%;
+            border-radius: 50%;
+            border:5px solid black
+        }
+        .one h3,.one p{
+            text-align: center;
+        }
+        .new{
+            width: 14%;
+            height: 7vh;
+            background-color: red;
+            color: white;
+            border: 3px solid black;
+            border-bottom-left-radius: 14px;
+            padding-top: 8px;
+            /* position: relative;
+            top: 25px;
+            right: 10%; */
+            /* position: absolute;
+            top: 0px;
+            right: 0%; */
+
+        }
+    </style>
+</head>
+<body>
+    <h2>Hello World</h2>
+    <div class="one">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjqsBxe8EsI8tCI-fsTgVD8LMTuCC0SWP_roJ_lZb9bg&s=10" alt="AWS">
+        <h3>Amazon Web Services</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores harum saepe labore voluptas in quos a aperiam facilis beatae ut.</p>
+        <div class="new">
+            NEW
+        </div>
+    </div>
+    <div class="one">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjqsBxe8EsI8tCI-fsTgVD8LMTuCC0SWP_roJ_lZb9bg&s=10" alt="AWS">
+        <h3>Amazon Web Services</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores harum saepe labore voluptas in quos a aperiam facilis beatae ut.</p>
+        <div class="new">
+            NEW
+        </div>
+    </div>
+</body>
+</html>
