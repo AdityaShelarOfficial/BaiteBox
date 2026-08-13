@@ -1,13 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap'); */
 * {
-    background-color: rgb(220,228,228);
+    background-color: black;
     box-sizing: border-box;
 }
-body{
+/* body{
  font-family: "Great Vibes", cursive;
   font-weight: 400;
   font-style: normal;
-}
+} */
 nav { 
     display: flex;
     justify-content: space-between;
@@ -63,4 +63,71 @@ nav img{
     width: 8vh;
     height: auto;
     margin: 20px;
+}
+.hero{
+    width: 100%;
+    height: 85vh;
+    border: 2px solid black;
+    background-image: url('../Images/baner.jpg');
+    background-size: cover;
+    display: flex; 
+    justify-content:start;
+}
+.hero-content{
+    background-color: rgba(0, 0, 0, 0);
+    margin-left: 10vh;
+    margin-top: 15vh;
+    color: white;
+}
+.hero-content h1 , .hero-content p{
+    background-color: rgba(0, 0, 0, 0);
+}
+.hero-content button{
+    height: 6vh;
+    width: 10vw;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    border-radius: 10px;
+    margin-left: 90px;
+    font-size: 20px;
+}
+.media {
+    width: 100%;
+    height: 70vh;
+    border: 2px solid black;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.text, .video {
+    width: 50%;
+    height: 70vh;
+    color: white;
+    margin-top: 10vh;
+}
+.video video{
+    width: 100%;
+    height: 85%;   
+    border-radius: 50px;
+    background-color: black;
+}
+.text h2{
+    margin-top: 15vh;
+}
+.text h2, .text p{
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+.myself{
+    width: 100%;
+    height: 40vh;
+    color: white;
+}
+.myself h1 , .myself p{
+    width: 40vw;
+    text-align: center;
+    margin-left: 24vw;
+}
+.myself h1{
+    color: rgb(225, 57, 57);
 }
