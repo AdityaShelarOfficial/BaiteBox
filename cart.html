@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
     <link rel="icon" type="image/png" href="Images/final.png">
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <header>
         <nav>
@@ -23,6 +25,70 @@
             </ul>
         </nav>
     </header>
+    <section class="cart">
+        <h2 id="heads">My Cart</h2>
+        <table>
+            <thead>
+                <tr class="rows">
+                    <th>Item</th>
+                    <th class="one">Price</th>
+                    <th>Quantity</th>
+                    <th>Total Amount</th>
+                    <th>Remove</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="items">
+                        <img src="./Images/pizza.jpg" alt="">
+                        <div class="cart-item">
+                            <h3>Pizza</h3>
+                            <p>flavorful fresh delicious & satisfying.</p>
+                        </div>
+                    </td>
+                    <td>₹149</td>
+                    <td>
+                        <button> - </button>
+                        <span> 2 </span>
+                        <button> + </button>
+                    </td>
+                    <td>₹298</td>
+                    <td>
+                        <button style="padding: 5% 15%; "> ❌ </button>
+                    </td>
+                </tr>
+                 <tr>
+                    <td class="items">
+                        <img src="./Images/momos.png" alt="">
+                        <div class="cart-item">
+                            <h3>Momos</h3>
+                            <p>Steamed with flavorful spaices.</p>
+                        </div>
+                    </td>
+                    <td>₹99</td>
+                    <td>
+                        <button> - </button>
+                        <span> 1 </span>
+                        <button> + </button>
+                    </td>
+                    <td >₹99</td>
+                    <td>
+                        <button style="padding: 5% 15%; "> ❌ </button>
+                    </td>
+                </tr>
+                <tr class="pad">
+                    <td colspan="3">Grand Total</td>
+                    <td>₹397</td>
+                    <td>
+                        <button>Proceed</button>
+                    </td>
+                </tr>
+            </tbody>
+            <!-- <tfoot>
+
+            </tfoot> -->
+        </table>
+    </section>
 </body>
 
 </html>
