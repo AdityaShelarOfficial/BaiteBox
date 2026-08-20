@@ -131,3 +131,82 @@ nav img{
 .myself h1{
     color: rgb(225, 57, 57);
 }
+
+.menu-container{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(4,23%);
+    gap: 2%;
+    padding-left: 1.5%;
+}
+
+.card{
+    width: 100%;
+    height: auto;
+    color: white;
+    background-color: gray;
+    border-radius: 20px;
+}
+
+.card img{
+    width: 94%;
+    height: auto;
+    border-radius: 20px;
+    margin: 3%;
+}
+
+.menu h2{
+    text-align: center;
+    color: rgb(255, 140, 0);
+}
+
+.card h3,.card p,.card span{
+    margin: 0px 5%;
+    text-align: center;
+    background-color: gray;
+}
+
+.card span{
+    margin-left: 22%;
+}
+
+.card button{
+    width: 8vw;
+    height: 5vh;
+    border-radius: 10px;
+    margin-bottom: 2%;
+    background-color: hsl(0, 93%, 50%);
+    color: rgb(236, 231, 231);
+    font-weight: bolder;
+}
+
+.card button:hover{
+    background-color: yellow;
+    color: black;
+}
+
+.icons{
+    width: 80%;
+    height: auto;
+    margin: 0% 10%;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap:2%;
+}
+
+.icon-cards{
+    width: 100%;
+    height: auto;
+}
+.icon-cards img{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    border: 1px solid black;
+    padding: 5%;
+}
+.icon-cards p{
+    color: white;
+    text-align: center;
+}
