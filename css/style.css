@@ -3,24 +3,26 @@
     background-color: black;
     box-sizing: border-box;
 }
+
 /* body{
  font-family: "Great Vibes", cursive;
   font-weight: 400;
   font-style: normal;
 } */
-nav { 
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: black;
     width: 100%;
     /* height: 10vh; */
-    
+
 }
-li
-{
+
+li {
     background-color: black;
 }
+
 nav ul {
     width: 45%;
     background-color: black;
@@ -30,59 +32,70 @@ nav ul {
 
 nav ul li a {
     background-color: black;
-    text-decoration:none;
+    text-decoration: none;
     color: white;
 }
+
 nav h2 {
     color: white;
     background-color: black;
     padding-left: 3vw;
 }
-nav h2 span{
+
+nav h2 span {
     background-color: black;
 }
 
-nav ul li a:hover{
+nav ul li a:hover {
     color: red;
     font-weight: bold;
 }
-span{
+
+span {
     background-color: black;
 }
-li:last-child a{
+
+li:last-child a {
     background-color: red;
     padding: 10px 15px;
     border-radius: 10px;
 }
-li:last-child a:hover{
+
+li:last-child a:hover {
     color: black;
     background-color: white;
 
 }
-nav img{
+
+nav img {
     width: 8vh;
     height: auto;
     margin: 20px;
 }
-.hero{
+
+.hero {
     width: 100%;
     height: 85vh;
     border: 2px solid black;
     background-image: url('../Images/baner.jpg');
     background-size: cover;
-    display: flex; 
-    justify-content:start;
+    display: flex;
+    justify-content: start;
 }
-.hero-content{
+
+.hero-content {
     background-color: rgba(0, 0, 0, 0);
     margin-left: 10vh;
     margin-top: 15vh;
     color: white;
 }
-.hero-content h1 , .hero-content p{
+
+.hero-content h1,
+.hero-content p {
     background-color: rgba(0, 0, 0, 0);
 }
-.hero-content button{
+
+.hero-content button {
     height: 6vh;
     width: 10vw;
     background-color: rgb(255, 0, 0);
@@ -91,6 +104,7 @@ nav img{
     margin-left: 90px;
     font-size: 20px;
 }
+
 .media {
     width: 100%;
     height: 70vh;
@@ -99,49 +113,59 @@ nav img{
     /* justify-content: center; */
     align-items: center;
 }
-.text, .video {
+
+.text,
+.video {
     width: 50%;
     height: 70vh;
     color: white;
     margin-top: 10vh;
 }
-.video video{
+
+.video video {
     width: 100%;
-    height: 85%;   
+    height: 85%;
     border-radius: 50px;
     background-color: black;
 }
-.text h2{
+
+.text h2 {
     margin-top: 15vh;
 }
-.text h2, .text p{
+
+.text h2,
+.text p {
     margin-left: 5vw;
     margin-right: 5vw;
 }
-.myself{
+
+.myself {
     width: 100%;
     height: 40vh;
     color: white;
 }
-.myself h1 , .myself p{
+
+.myself h1,
+.myself p {
     width: 40vw;
     text-align: center;
     margin-left: 24vw;
 }
-.myself h1{
+
+.myself h1 {
     color: rgb(225, 57, 57);
 }
 
-.menu-container{
+.menu-container {
     width: 100%;
     height: auto;
     display: grid;
-    grid-template-columns: repeat(4,23%);
+    grid-template-columns: repeat(4, 23%);
     gap: 2%;
     padding-left: 1.5%;
 }
 
-.card{
+.card {
     width: 100%;
     height: auto;
     color: white;
@@ -149,29 +173,31 @@ nav img{
     border-radius: 20px;
 }
 
-.card img{
+.card img {
     width: 94%;
     height: auto;
     border-radius: 20px;
     margin: 3%;
 }
 
-.menu h2{
+.menu h2 {
     text-align: center;
     color: rgb(255, 140, 0);
 }
 
-.card h3,.card p,.card span{
+.card h3,
+.card p,
+.card span {
     margin: 0px 5%;
     text-align: center;
     background-color: gray;
 }
 
-.card span{
+.card span {
     margin-left: 22%;
 }
 
-.card button{
+.card button {
     width: 8vw;
     height: 5vh;
     border-radius: 10px;
@@ -181,37 +207,39 @@ nav img{
     font-weight: bolder;
 }
 
-.card button:hover{
+.card button:hover {
     background-color: yellow;
     color: black;
 }
 
-.icons{
+.icons {
     width: 80%;
     height: auto;
     margin: 0% 10%;
     display: grid;
     grid-template-columns: repeat(7, 1fr);
-    gap:2%;
+    gap: 2%;
 }
 
-.icon-cards{
+.icon-cards {
     width: 100%;
     height: auto;
 }
-.icon-cards img{
+
+.icon-cards img {
     width: 100%;
     height: auto;
     border-radius: 50%;
     border: 1px solid black;
     padding: 5%;
 }
-.icon-cards p{
+
+.icon-cards p {
     color: white;
     text-align: center;
 }
 
-table{
+table {
     color: aliceblue;
     width: 80%;
     height: auto;
@@ -219,54 +247,158 @@ table{
     margin-right: 10%;
     /* border: 1px solid white; */
 }
-.items img{
+
+.items img {
     width: 90%;
     height: auto;
 
 }
+
 .items {
     display: grid;
-    grid-template-columns:150px 220px;
+    grid-template-columns: 150px 220px;
     gap: 5%;
 }
-th{
+
+th {
     background-color: red;
     padding: 1% 0%;
     border: 1px solid white;
-    
+
 }
-.rows th:first-child{
-    border-top-left-radius:15px ;
+
+.rows th:first-child {
+    border-top-left-radius: 15px;
 }
-.rows th:last-child{
+
+.rows th:last-child {
     border-top-right-radius: 15px;
 }
-td{
+
+td {
     text-align: center;
     border: 1px solid white;
 }
-td button{
+
+td button {
     background-color: red;
     border-radius: 7px;
     padding: 7px 10%;
 }
-.pad td{
+
+.pad td {
     padding: 15px;
 }
-.pad td:first-child{
+
+.pad td:first-child {
     border-bottom-left-radius: 15px;
 }
-.pad td:last-child{
+
+.pad td:last-child {
     border-bottom-right-radius: 15px;
 }
-.one{
+
+.one {
     padding-left: 10px;
     padding-right: 10px;
 }
-#heads{
+
+#heads {
     color: wheat;
     text-align: center;
 }
-.cart{
+
+.cart {
     margin-top: -50;
+}
+
+.auth-container {
+
+    color: white;
+    width: 100%;
+    height: 90vh;
+
+}
+
+.auth {
+    width: 30%;
+    height: auto;
+    background-color: white;
+    color: black;
+    border: 5px solid gray;
+    margin: 10vh 35%;
+    border-radius: 25px;
+}
+
+.auth h2 {
+    color: rgb(255, 1, 1);
+    background-color: white;
+    text-align: center;
+    text-shadow: 2px 1px 2px rgb(0, 0, 0);
+}
+
+.auth form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0% 10%;
+    background-color: white;
+}
+
+/* .auth a {
+    margin: 0% 35%;
+} */
+
+.auth p {
+    margin: 5% 10%;
+}
+.auth form input{
+    height: 6vh;
+    font-size:16px;
+    margin-bottom: 10px;
+    color: #000;
+    background-color: bisque;
+    border-radius: 10px;
+    border: 2px solid black;
+    /* border-color: black; */
+
+}
+.auth form input::placeholder{
+    text-align: center;
+}
+.auth button, .auth p{
+    background-color: white;
+
+}
+#forget{
+    margin: 0% 36%;
+    background-color: white;
+    color: red;
+}
+.auth p a{
+    background-color: white;
+    color: red;
+}
+.auth form button{
+    height: 6vh;
+    font-size:16px;
+    margin-bottom: 10px;
+    background-color: rgb(190, 43, 43);
+    color: white;
+    border-radius: 10px;
+    border: 3px solid black;
+}
+.auth form button:hover{
+    background-color: red;
+}
+.auth form input:focus{
+    border: 3px solid red;
+
+}
+.auth p{
+    text-align: center;
+    margin: 5% 13%;
+}
+#register{
+    margin-top: 1%;
 }
