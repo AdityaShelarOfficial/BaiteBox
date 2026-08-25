@@ -352,9 +352,10 @@ td button {
 .auth p {
     margin: 5% 10%;
 }
-.auth form input{
+
+.auth form input {
     height: 6vh;
-    font-size:16px;
+    font-size: 16px;
     margin-bottom: 10px;
     color: #000;
     background-color: bisque;
@@ -363,42 +364,147 @@ td button {
     /* border-color: black; */
 
 }
-.auth form input::placeholder{
+
+.auth form input::placeholder {
     text-align: center;
 }
-.auth button, .auth p{
+
+.auth button,
+.auth p {
     background-color: white;
 
 }
-#forget{
+
+#forget {
     margin: 0% 36%;
     background-color: white;
     color: red;
 }
-.auth p a{
+
+.auth p a {
     background-color: white;
     color: red;
 }
-.auth form button{
+
+.auth form button {
     height: 6vh;
-    font-size:16px;
+    font-size: 16px;
     margin-bottom: 10px;
     background-color: rgb(190, 43, 43);
     color: white;
     border-radius: 10px;
     border: 3px solid black;
 }
-.auth form button:hover{
+
+.auth form button:hover {
     background-color: red;
 }
-.auth form input:focus{
+
+.auth form input:focus {
     border: 3px solid red;
 
 }
-.auth p{
+
+.auth p {
     text-align: center;
     margin: 5% 13%;
 }
-#register{
+
+#register {
     margin-top: 1%;
+}
+
+.deals-page {
+    width: 100%;
+    height: auto;
+}
+
+.deal-hero {
+    width: 80%;
+    height: auto;
+    background-color: gray;
+    border: 2px solid white;
+    margin: 3vh 10%;
+    border-radius: 15px;
+}
+
+.deal-hero h2,
+.deal-hero p {
+    background-color: gray;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.combo-section {
+    width: 100%;
+    height: auto;
+}
+
+.combo-section h2{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 20px;
+}
+.combo-container{
+    width: 90%;
+    height: auto;
+    margin: 0% 5%;
+    /* border: 2px solid white; */
+    display: grid;
+    gap: 3%;
+    grid-template-columns: repeat(3 , 1fr);
+}
+.deal-card{
+    /* border: 2px solid greenyellow; */
+    background-color: rgb(111, 104, 104);
+    border-radius: 15px;
+}
+.deal-card img{
+    width: 80%;
+    height: auto;
+    margin: 3% 10%;
+    border: 2px solid white;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.deal-card h3 , .deal-card p , .deal-card h4 , .deal-card h4 span {
+    background-color: rgb(111,104,104);
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-weight: bold;
+}
+.deal-card button{
+    width: 40%;
+    height: 5vh;
+    color: aliceblue;
+    margin-left: 30%;
+    background-color: rgb(175, 49, 49);
+    border-radius: 8px;
+    margin-bottom: 2%;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid white;
+}
+.deal-card button:hover{
+    background-color:rgb(255, 3, 3);
+    cursor: pointer;
+}
+
+.deal-card h4 span{
+    text-decoration: line-through red;
+    color: rgb(244, 228, 228);
+}
+
+.deal-card span{
+    width: 60%;
+    margin-left: 30%;
+    background-color:rgb(111, 104, 104);
+    color: rgb(145, 228, 228);
+}
+.deal-card .offer{
+    color: rgb(193, 140, 170);
 }
