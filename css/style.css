@@ -438,28 +438,34 @@ td button {
 .combo-section {
     width: 100%;
     height: auto;
+    margin-bottom: 9vh;
 }
 
-.combo-section h2{
+.combo-section h2 {
     color: white;
     font-family: 'Times New Roman', Times, serif;
     padding-left: 20px;
 }
-.combo-container{
+
+.combo-container {
     width: 90%;
     height: auto;
     margin: 0% 5%;
     /* border: 2px solid white; */
     display: grid;
     gap: 3%;
-    grid-template-columns: repeat(3 , 1fr);
+    grid-template-columns: repeat(3, 1fr);
 }
-.deal-card{
+
+.deal-card {
     /* border: 2px solid greenyellow; */
     background-color: rgb(111, 104, 104);
     border-radius: 15px;
+    width: 100%;
+    height: auto;
 }
-.deal-card img{
+
+.deal-card img {
     width: 80%;
     height: auto;
     margin: 3% 10%;
@@ -468,8 +474,11 @@ td button {
     border-top-right-radius: 15px;
 }
 
-.deal-card h3 , .deal-card p , .deal-card h4 , .deal-card h4 span {
-    background-color: rgb(111,104,104);
+.deal-card h3,
+.deal-card p,
+.deal-card h4,
+.deal-card h4 span {
+    background-color: rgb(111, 104, 104);
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
@@ -477,7 +486,8 @@ td button {
     margin-bottom: 2%;
     font-weight: bold;
 }
-.deal-card button{
+
+.deal-card button {
     width: 40%;
     height: 5vh;
     color: aliceblue;
@@ -489,22 +499,63 @@ td button {
     font-weight: bold;
     border: 2px solid white;
 }
-.deal-card button:hover{
-    background-color:rgb(255, 3, 3);
+
+.deal-card button:hover {
+    background-color: rgb(255, 3, 3);
     cursor: pointer;
 }
 
-.deal-card h4 span{
+.deal-card h4 span {
     text-decoration: line-through red;
     color: rgb(244, 228, 228);
 }
 
-.deal-card span{
+.deal-card pre {
     width: 60%;
-    margin-left: 30%;
-    background-color:rgb(111, 104, 104);
+    margin-left: 20%;
+    background-color: black;
     color: rgb(145, 228, 228);
+    font-family: 'Times New Roman', Times, serif;
+    padding: 2% 3%;
+    margin-bottom:2vh;
+    font-size: large;
+    text-align: center;
+    border-radius: 7px;
 }
-.deal-card .offer{
-    color: rgb(193, 140, 170);
+.deal-card pre:hover{
+    background-color: rgb(213, 214, 214);
+    color: red;
+    font-weight: bolder;
 }
+
+.deal-card .offer {
+    color: rgb(255, 0, 144);
+    background-color: aqua;
+    border-radius: 15px;
+}
+
+.deal-card .para{
+    background-color: rgb(75, 74, 74);
+}
+
+.deal-card .ones{
+    color:rgb(4, 255, 4);
+}
+.deal-card .para:hover{
+    background-color: red;
+    color: white;
+}
+
+.cards:hover{
+    background-color: white;
+    color: black;
+    h3{
+        background-color: white;
+        color: rgb(0, 161, 161);
+    }
+    p{
+        background-color: white;
+        color: #000;
+    }
+}
+
