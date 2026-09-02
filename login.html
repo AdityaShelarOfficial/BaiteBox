@@ -31,17 +31,17 @@
 
             <h2> Login Form </h2>
 
-            <form action="index.html">
+            <form>
 
-                <input type="email" placeholder="Enter Your Email ID" required>
+                <input type="email" id="username" placeholder="Enter Your Email ID" required>
 
-                <input type="password" placeholder="Enter Your Password" required>
+                <input type="password" id="password" placeholder="Enter Your Password" required>
 
-                <button type="submit"> Login </button>
+                <button type="button" onclick="login()"> Login </button>
 
 
             </form>
-
+            <h4 id="message" style="color: red;"></h4>
             <a href="signup.html" id="forget">Forgot Password ? </a>
 
             <p> Don't Have An Account ? <a href="signup.html">Click </a> Here </p>
@@ -51,6 +51,7 @@
 
     </section>
 
+    <script src="./Js/login.js"></script>
 </body>
 
 </html>

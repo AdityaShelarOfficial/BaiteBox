@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f2f2f2;
+    }
+
+    .validation {
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .form {
+        background-color: white;
+        width: 350px;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+    }
+
+    .form h2 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .form input {
+        width: 100%;
+        padding: 12px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 15px;
+    }
+    .form button{
+        background-color: red;
+        color: #ffffff;
+        width: 100%;
+        padding: 12px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 15px;
+    }
+    .form input:focus {
+        outline: none;
+        border-color: #333;
+    }
+
+</style>
+
+</head>
+<body>
+    <section class="validation">
+        <div class="form">
+            <form action="">
+                <h2>Simple Form</h2>
+                <input type="text" id="name" required placeholder="Enter Your Full Name">
+                <input type="text" id="gender" required placeholder="Enter your gender">
+                <input type="email" id="email" required placeholder="Enter your Email">
+                <input type="password" id="password1" required placeholder="Enter Your Password">
+                <input type="password" id="password2" required placeholder="Confirm Your Password">
+                <button type="submit" onsubmit="validate()">Sign Up</button>
+            </form>
+        </div>
+    </section>
+
+    <script>
+    function validate() {
+
+        let name = document.getElementById('name').value;
+        let gender = document.getElementById('gender').value;
+        let email = document.getElementById('email').value;
+        let pass = document.getElementById('password1').value;
+        let passw = document.getElementById('password2').value;
+
+        // Check empty fields
+        if (name == '' || gender == '' || email == '' || pass == '' || passw == '') {
+            alert('Enter the data correctly');
+            return;
+        }
+
+        // Check password length
+        if (pass.length < 5) {
+            alert('Password must contain at least 5 characters');
+            return;
+        }
+
+        // Check password match
+        if (pass !== passw) {
+            alert('Passwords do not match');
+            return;
+        }
+
+        alert('Form submitted successfully!');
+    }
+</script>
+</body>
+
+</html>

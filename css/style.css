@@ -559,3 +559,9 @@ td button {
     }
 }
 
+#message{
+    background-color: white;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
